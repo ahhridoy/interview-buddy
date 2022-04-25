@@ -25,12 +25,14 @@ const LandingPage = () => {
                 </h1>
                 <p>Live | On-demand | Anywhere</p>
                 <div className="btn-box">
-                <div>
-                  <Button variant="outline-danger" className="btn-1">Learn More</Button>{" "}
-                </div>
-                <div className="btn-2">
-                  <Button variant="outline-danger">Sign Up</Button>{" "}
-                </div>
+                  <div>
+                    <Button variant="outline-danger" className="btn-1">
+                      Learn More
+                    </Button>{" "}
+                  </div>
+                  <div className="btn-2">
+                    <Button variant="outline-danger">Sign Up</Button>{" "}
+                  </div>
                 </div>
 
                 <div className="watch-video">
@@ -188,6 +190,83 @@ const LandingPage = () => {
           </Row>
           <div className="benefits-button">
             <Button variant="outline-dark">Four More Benefits</Button>
+          </div>
+        </Container>
+      </section>
+
+      {/* how it works */}
+      <section id="howitworks">
+        <Container>
+          <h1 className="heading">HOW DOES IT WORK?</h1>
+          <p className="sub-text">
+            InterviewBuddy helps students and job seekers crack interviews &
+            land their dream jobs!
+          </p>
+          <div className="works-box">
+            <div className="content-left">
+              <div className="content1">
+                <div className="img-box">
+                  <img src="/assets/email.png" alt="logo" />
+                </div>
+                <div className="text-box">
+                  <h1>CREATE AN ACCOUNT</h1>
+                  <hr />
+                  <p>
+                    Sign up with your email; verify it & you’re ready to get
+                    started on a life-changing journey. Login to start browsing
+                    our FREE hand-picked Resources.
+                  </p>
+                </div>
+              </div>
+              <div className="content2">
+                <div className="img-box">
+                  <img src="/assets/time.png" alt="logo" />
+                </div>
+                <div className="text-box">
+                  <h1>SCHEDULE A ONE-ON-ONE Interview</h1>
+                  <hr />
+                  <p>
+                    Choose an available slot that fits your schedule & get a
+                    confirmation via e-mail & SMS. Prime your interview skills
+                    with our curated Resources & you are all set to face your
+                    mock interview!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="content-middle">
+              <img src="/assets/tree.png" alt="logo" />
+            </div>
+            <div className="content-right">
+              <div className="content1">
+                <div className="img-box">
+                  <img src="/assets/couple.png" alt="logo" />
+                </div>
+                <div className="text-box">
+                  <h1>COMPLETE PROFILE</h1>
+                  <hr />
+                  <p>
+                    Complete your profile before scheduling an interview so your
+                    personal expert(s) can thoroughly analyse your profile
+                  </p>
+                </div>
+              </div>
+              <div className="content2">
+                <div className="img-box">
+                  <img src="/assets/research.png" alt="logo" />
+                </div>
+                <div className="text-box">
+                  <h1>PERFORMANCE FEEDBACK</h1>
+                  <hr />
+                  <p>
+                    Get comprehensive feedback on your performance & an
+                    interview scorecard underlining your strengths, personalized
+                    tips on improving weaker areas & a link to the recording of
+                    your interview.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </Container>
       </section>

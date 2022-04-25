@@ -1,7 +1,7 @@
 @import "../includes/imports";
 
 #hero {
-  padding: 100px 0px ;
+  padding: 100px 0px;
   .hero-img {
     padding-bottom: 30px;
   }
@@ -12,14 +12,13 @@
     p {
       text-align: end;
     }
-    .btn-box{
+    .btn-box {
       padding-top: 20px;
       display: flex;
       justify-content: end;
       gap: 20px;
-    .btn1 {
-      
-    }
+      .btn1 {
+      }
     }
     .watch-video {
       text-align: end;
@@ -77,5 +76,70 @@
   }
   .benefits-button {
     text-align: center;
+  }
+}
+
+#howitworks {
+  .heading {
+    padding-top: 100px;
+  }
+  .sub-text {
+    margin-bottom: 100px;
+  }
+  .works-box {
+    display: flex;
+    .content-left {
+      .content1 {
+        display: flex;
+        margin-top: -100px;
+        .img-box {
+          text-align: start;
+        }
+        .text-box {
+          padding-top: 150px;
+        }
+      }
+      .content2 {
+        display: flex;
+        .img-box {
+          text-align: start;
+        }
+        .text-box {
+          padding-top: 150px;
+        }
+      }
+    }
+    .content-right {
+      .content1 {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 70px;
+        .img-box {
+          text-align: end;
+        }
+        .text-box {
+          padding-top: 150px;
+        }
+      }
+      .content2 {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: -20px;
+        .img-box {
+          text-align: end;
+        }
+        .text-box {
+          padding-top: 150px;
+        }
+      }
+    }
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      .content-middle {
+        img {
+          display: none;
+        }
+      }
+    }
   }
 }
