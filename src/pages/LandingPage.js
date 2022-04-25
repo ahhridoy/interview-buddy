@@ -270,6 +270,19 @@ const LandingPage = () => {
           </div>
         </Container>
       </section>
+
+      {/* learn more */}
+      <section id="learnmore">
+        <Container className="learnmore-box">
+          <div className="text-box">
+            <h3 className="heading">Real Mastery Requires Practice!</h3>
+            <h3 className="sub-text">Ready to get started?</h3>
+          </div>
+          <div className="btn-box">
+            <Button variant="outline-light">Sign Up</Button>
+          </div>
+        </Container>
+      </section>
     </main>
   );
 };

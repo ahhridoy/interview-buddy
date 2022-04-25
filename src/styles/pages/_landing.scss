@@ -143,3 +143,31 @@
     }
   }
 }
+
+#learnmore {
+  background-image: url("../../../public/assets/learnmore.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 133px;
+  .learnmore-box {
+    display: flex;
+    justify-content: space-around;
+    .text-box {
+      .heading {
+        font-family: $primaryFont;
+        font-size: 33px;
+        margin: 44px 0 0;
+        color: white;
+      }
+      .sub-text {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+      }
+    }
+    .btn-box {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
