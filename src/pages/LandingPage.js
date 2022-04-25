@@ -20,19 +20,25 @@ const LandingPage = () => {
             </Col>
             <Col xs={12} md={6}>
               <div className="hero-content">
-                <h1>
+                <h1 className="heading">
                   VIRTUAL FACE-TO-FACE MOCK INTERVIEWS WITH INDUSTRY EXPERTS
                 </h1>
                 <p>Live | On-demand | Anywhere</p>
-                <Button variant="outline-danger">Learn More</Button>
-                <Button variant="outline-danger">Sign Up</Button>
+                <div className="btn-box">
+                <div>
+                  <Button variant="outline-danger" className="btn-1">Learn More</Button>{" "}
+                </div>
+                <div className="btn-2">
+                  <Button variant="outline-danger">Sign Up</Button>{" "}
+                </div>
+                </div>
 
                 <div className="watch-video">
                   <img src="/assets/watch-video.png" alt="logo" />
                 </div>
                 <div className="branding">
-                  <img src="/assets/PH.png" alt="logo" />
-                  <img src="/assets/IIA.png" alt="logo" />
+                  <img className="ph" src="/assets/PH.png" alt="logo" />
+                  <img className="iia" src="/assets/IIA.png" alt="logo" />
                 </div>
               </div>
             </Col>
@@ -73,26 +79,116 @@ const LandingPage = () => {
             </Col>
           </Row>
         </Container>
+        <div className="about-vector">
+          <img src="/assets/boy.png" alt="logo" />
+        </div>
       </section>
 
       {/* advantages */}
-      <section>
+      <section id="advantages">
         <Container>
-          <h1>ADANTAGES OF MOCK INTERVIEWS</h1>
+          <h1 className="heading">ADANTAGES OF MOCK INTERVIEWS</h1>
           <Row>
-            <Col xs={6} md={3}>
-              <img src="/assets/reduce-stress.png" alt="logo" />
+            <Col xs={12} md={3}>
+              <div className="advantages-box">
+                <img src="/assets/reduce-stress.png" alt="logo" />
+                <h2>REDUCE STRESS & ANXIETY</h2>
+                <p>
+                  Doubts about how to answer tricky interview questions may
+                  stress you out & create anxiety. Get over your nerves with
+                  mock interviews.
+                </p>
+              </div>
             </Col>
-            <Col xs={6} md={3}>
-              <img src="/assets/confidence.png" alt="logo" />
+            <Col xs={12} md={3}>
+              <div className="advantages-box">
+                <img src="/assets/confidence.png" alt="logo" />
+                <h2>BOOST CONFIDENCE</h2>
+                <p>
+                  Test drive your answers with experts to improve your skills &
+                  experience and boost confidence.
+                </p>
+              </div>
             </Col>
-            <Col xs={6} md={3}>
-              <img src="/assets/expert.png" alt="logo" />
+            <Col xs={12} md={3}>
+              <div className="advantages-box">
+                <img src="/assets/expert.png" alt="logo" />
+                <h2>CONSTRUCTIVE FEEDBACK</h2>
+                <p>
+                  Get in-depth analysis of your interview style and tips to help
+                  you improve areas where you may have weaknesses.
+                </p>
+              </div>
             </Col>
-            <Col xs={6} md={3}>
-              <img src="/assets/score.png" alt="logo" />
+            <Col xs={12} md={3}>
+              <div className="advantages-box">
+                <img src="/assets/score.png" alt="logo" />
+                <h2>BEHAVIOURAL INTERVIEW QUESTIONS</h2>
+                <p>
+                  Mastering questions like -'Tell me about a time you failed'
+                  show you have the skills & competencies needed for the job.
+                </p>
+              </div>
             </Col>
           </Row>
+        </Container>
+      </section>
+
+      {/* benefits */}
+      <section id="benefits">
+        <Container>
+          <h1 className="heading">
+            BENEFITS OF INTERVIEWBUDDY <sup>TM</sup>
+          </h1>
+          <Row>
+            <Col xs={12} md={3}>
+              <div className="benefits-box">
+                <img src="/assets/nosoftware.png" alt="logo" />
+                <h2>NO SOFTWARE DOWNLOADS</h2>
+                <p>
+                  If you have access to a computer/tablet and an internet
+                  connection, you’re ready to use our service. You’ll never need
+                  any downloading.
+                </p>
+              </div>
+            </Col>
+            <Col xs={12} md={3}>
+              <div className="benefits-box">
+                <img src="/assets/n1.png" alt="logo" />
+                <h2>INTERVIEW SCORECARD</h2>
+                <p>
+                  Get a detailed interview scorecard with performance-based
+                  metrics and comprehensive feedback on your strengths
+                  &weaknesses.
+                </p>
+              </div>
+            </Col>
+            <Col xs={12} md={3}>
+              <div className="benefits-box">
+                <img src="/assets/video.png" alt="logo" />
+                <h2>PLAYBACK YOUR INTERVIEW</h2>
+                <p>
+                  Our video interviewing system automatically records your
+                  interview so that you can review it anytime. You’ll receive
+                  access to the recording of the interview within 2 hours.
+                </p>
+              </div>
+            </Col>
+            <Col xs={12} md={3}>
+              <div className="benefits-box">
+                <img src="/assets/man.png" alt="logo" />
+                <h2>CURATED RESOURCES</h2>
+                <p>
+                  Prime your interview skills & etiquette by accessing the best
+                  hand-picked and curated content covering every aspect of the
+                  interview cycle with InterviewBuddy!
+                </p>
+              </div>
+            </Col>
+          </Row>
+          <div className="benefits-button">
+            <Button variant="outline-dark">Four More Benefits</Button>
+          </div>
         </Container>
       </section>
     </main>

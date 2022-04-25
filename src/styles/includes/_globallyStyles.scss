@@ -1,12 +1,30 @@
 * {
-   margin: 0;
-   padding: 0;
+  margin: 0;
+  padding: 0;
 }
 h1 {
-   padding: 12px 0;
-   text-align: center;
-   font-family: "Bebas Neue";
-   color: #2274a5;
-   font-size: 38px;
-   margin: 0;
+  font-family: "Bebas Neue";
+  font-size: 38px;
+  color: #2274a5;
+  text-align: center;
+  padding: 12px 0;
+  margin: 0;
+}
+h2 {
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  color: #2274a5;
+  text-align: center;
+  margin: 35px 0 20px;
+  letter-spacing: 1px;
+  height: 40px;
+}
+p {
+  font-family: "JosefinSans Regular";
+  font-size: 18px;
+  color: #333945;
+  text-align: center;
+  line-height: 30px;
+  word-spacing: 5px;
+  margin-bottom: 1rem;
 }

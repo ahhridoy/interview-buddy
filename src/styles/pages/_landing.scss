@@ -1,15 +1,81 @@
 @import "../includes/imports";
 
+#hero {
+  padding: 100px 0px ;
+  .hero-img {
+    padding-bottom: 30px;
+  }
+  .hero-content {
+    .heading {
+      text-align: end;
+    }
+    p {
+      text-align: end;
+    }
+    .btn-box{
+      padding-top: 20px;
+      display: flex;
+      justify-content: end;
+      gap: 20px;
+    .btn1 {
+      
+    }
+    }
+    .watch-video {
+      text-align: end;
+      padding-top: 20px;
+      img {
+        max-width: 150px;
+        margin-right: 30px;
+      }
+    }
+    .branding {
+      padding-top: 50px;
+      text-align: end;
+      .ph {
+        max-width: 228px;
+        margin-right: 30px;
+      }
+      .iia {
+        max-width: 198px;
+      }
+    }
+  }
+}
+
 #about {
+  padding-top: 50px;
+  background-color: rgb(255, 249, 249);
   .heading {
-     margin-top: 30px;
+    margin-bottom: 20px;
   }
   .sub-text {
-    font-family: "JosefinSans Regular";
-    font-weight: 700;
-    line-height: 30px;
-    margin-bottom: 1rem;
-    font-size: 18px;
-    color: #333945;
+    text-align: start;
+  }
+  .about-vector {
+    text-align: end;
+  }
+}
+
+#advantages {
+  padding-top: 50px;
+  .heading {
+    margin-bottom: 20px;
+  }
+  .advantages-box {
+    text-align: center;
+  }
+}
+
+#benefits {
+  padding-top: 80px;
+  .heading {
+    margin-bottom: 20px;
+  }
+  .benefits-box {
+    text-align: center;
+  }
+  .benefits-button {
+    text-align: center;
   }
 }
