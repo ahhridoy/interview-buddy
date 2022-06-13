@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
+import Footer from "../../components/Footer/Footer";
 import "./_Pricing.scss"
 
 const Pricing = () => {
@@ -315,6 +316,9 @@ const Pricing = () => {
             </Col>
           </Row>
         </Container>
+      </section>
+      <section>
+        <Footer />
       </section>
     </main>
   );

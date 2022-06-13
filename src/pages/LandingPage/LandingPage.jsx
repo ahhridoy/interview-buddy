@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import Footer from "../../components/Footer/Footer";
 import "./_Landing.scss";
 
 const LandingPage = () => {
@@ -312,6 +313,10 @@ const LandingPage = () => {
             </Col>
           </Row>
         </Container>
+      </section>
+
+      <section>
+        <Footer />
       </section>
     </main>
   );

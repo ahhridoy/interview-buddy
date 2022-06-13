@@ -2,5 +2,39 @@
    display: flex;
    .book-interview-container {
       flex: 5;
+      .system {
+         background-color: #fff9c0;
+         border: 1px solid black;
+         padding: 10px 0px;
+         .system-text {
+            margin-bottom: 0px;
+         }
+      }
+      .update {
+         background-color: #fff9c0;
+         border: 1px solid black;
+         margin: 40px 20px;
+         padding-top: 10px;
+      }
+      .schedule-an-interview {
+         border: 1px solid black;
+         background-color: white;
+         margin-top: 40px;
+         margin-left: 20px;
+         .interview-type {
+            display: flex;
+            margin-top: -20px;
+         }
+      }
+      .available-slots {
+         border: 1px solid black;
+         background-color: white;
+         margin-top: 20px;
+         margin-left: 20px;
+         .interview-type {
+            display: flex;
+            margin-top: -20px;
+         }
+      }
    }
 }
