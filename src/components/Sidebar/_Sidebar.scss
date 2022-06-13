@@ -10,9 +10,11 @@
       }
     }
     .active {
-      background-color: red;
-      padding: 10px 25px;
-      border-radius: 10px;
+      padding: 10px 0;
+      background-color: black;
+      display: inline-block;
+      width: 100%;
+      border-right: 3px solid orangered;
     }
   }
 }

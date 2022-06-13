@@ -20,7 +20,7 @@ const Sidebar = () => {
               className="text-decoration-none"
               activeClassName="active"
             >
-              <BsCalendarCheck className="fs-4 text-light me-3" />
+              <BsCalendarCheck className="fs-5 text-light me-3" />
               <span className="text-light">Dashboard</span>
             </NavLink>
           </li>
@@ -30,7 +30,7 @@ const Sidebar = () => {
               className="text-decoration-none"
               activeClassName="active"
             >
-              <BsCalendarCheck className="fs-4 text-light me-3" />
+              <BsCalendarCheck className="fs-5 text-light me-3" />
               <span className="text-light">Book Interview</span>
             </NavLink>
           </li>
@@ -40,7 +40,7 @@ const Sidebar = () => {
               className="text-decoration-none"
               activeClassName="active"
             >
-              <BsCalendarCheck className="fs-4 text-light me-3" />
+              <BsCalendarCheck className="fs-5 text-light me-3" />
               <span className="text-light">Buy Credits</span>
             </NavLink>
           </li>
@@ -50,7 +50,7 @@ const Sidebar = () => {
               className="text-decoration-none"
               activeClassName="active"
             >
-              <BsCalendarCheck className="fs-4 text-light me-3" />
+              <BsCalendarCheck className="fs-5 text-light me-3" />
               <span className="text-light">My Profile</span>
             </NavLink>
           </li>
