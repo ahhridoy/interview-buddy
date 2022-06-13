@@ -20,6 +20,7 @@
   }
   .duo-box {
     border: 1px solid red;
+    box-shadow: 0px 0px 10px 0px gray;
     margin-top: -20px;
     .recommended {
       margin: 0px;
@@ -31,10 +32,10 @@
         font-weight: 400;
         font-family: "Source Sans Pro", sans-serif;
         .through-text {
-         text-decoration: line-through;
-         font-size: 20px;
-         color: gray;
-       }
+          text-decoration: line-through;
+          font-size: 20px;
+          color: gray;
+        }
       }
     }
     &:hover {
@@ -48,9 +49,9 @@
   background-color: rgb(73, 73, 73);
   padding: 50px 0px;
   h1 {
-      font-weight: 700;
-      font-size: 30px;
-      letter-spacing: 2px;
-      padding: 0px;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding: 0px;
   }
 }
