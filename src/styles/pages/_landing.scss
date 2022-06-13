@@ -171,3 +171,53 @@
     }
   }
 }
+
+#pricing {
+  margin: 100px 0;
+  .uno {
+    background-color: #80b740;
+    padding: 30px 0px;
+    transition: all ease 0.5s;
+    margin-right: -30px;
+    p {
+      color: white;
+      font-weight: 700;
+      font-size: 30px;
+    }
+    &:hover {
+      padding: 50px 0px;
+      box-shadow: 0px 0px 20px 0px gray;
+    }
+  }
+
+  .duo {
+    background-color: #46a549;
+    padding: 30px 0px;
+    transition: all ease 0.5s;
+    margin-right: -30px;
+    p {
+      color: white;
+      font-weight: 700;
+      font-size: 30px;
+    }
+    &:hover {
+      padding: 50px 0px;
+      box-shadow: 0px 0px 20px 0px gray;
+      // transform: translateY(50px);
+    }
+  }
+  .trio {
+    background-color: #008c7f;
+    padding: 30px 0px;
+    transition: all ease 0.5s;
+    p {
+      color: white;
+      font-weight: 700;
+      font-size: 30px;
+    }
+    &:hover {
+      padding: 50px 0px;
+      box-shadow: 0px 0px 20px 0px gray;
+    }
+  }
+}

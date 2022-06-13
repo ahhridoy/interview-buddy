@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 // import Header from "../components/Header";
 import "../styles/pages/_landing.scss";
 
@@ -281,6 +282,36 @@ const LandingPage = () => {
           <div className="btn-box">
             <Button variant="outline-light">Sign Up</Button>
           </div>
+        </Container>
+      </section>
+
+      {/* pricing */}
+      <section id="pricing">
+        <Container>
+          <h1 className="text-primary">PRICING</h1>
+          <Row className="row">
+            <Col md={4} xs={12}>
+              <Link to="pricing" className="text-decoration-none">
+                <div className="uno">
+                  <p>UNO</p>
+                </div>
+              </Link>
+            </Col>
+            <Col md={4} xs={12}>
+              <Link to="pricing" className="text-decoration-none">
+                <div className="duo">
+                  <p>DUO</p>
+                </div>
+              </Link>
+            </Col>
+            <Col md={4} xs={12}>
+              <Link to="pricing" className="text-decoration-none">
+                <div className="trio">
+                  <p>TRIO</p>
+                </div>
+              </Link>
+            </Col>
+          </Row>
         </Container>
       </section>
     </main>

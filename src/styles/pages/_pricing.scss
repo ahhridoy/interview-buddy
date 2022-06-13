@@ -1,0 +1,44 @@
+@import "../includes/imports";
+
+#price-box {
+  margin: 100px 0;
+  .uno-box {
+    border: 1px solid black;
+    padding: 20px;
+    .prices {
+      font-weight: 400;
+      font-family: "Source Sans Pro", sans-serif;
+      .through-text {
+        text-decoration: line-through;
+        font-size: 20px;
+        color: gray;
+      }
+    }
+    &:hover {
+      box-shadow: 0px 0px 20px 0px gray;
+    }
+  }
+  .duo-box {
+    border: 1px solid red;
+    .recommended {
+      margin: 0px;
+      padding-top: 5px;
+    }
+    .duo-price-box {
+      border: 1px solid black;
+      padding: 20px;
+      .prices {
+        font-weight: 400;
+        font-family: "Source Sans Pro", sans-serif;
+        .through-text {
+         text-decoration: line-through;
+         font-size: 20px;
+         color: gray;
+       }
+      }
+    }
+    &:hover {
+      box-shadow: 0px 0px 20px 0px gray;
+    }
+  }
+}
