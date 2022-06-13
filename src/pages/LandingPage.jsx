@@ -293,21 +293,21 @@ const LandingPage = () => {
             <Col md={4} xs={12}>
               <Link to="pricing" className="text-decoration-none">
                 <div className="uno">
-                  <p>UNO</p>
+                  <h1>UNO</h1>
                 </div>
               </Link>
             </Col>
             <Col md={4} xs={12}>
               <Link to="pricing" className="text-decoration-none">
                 <div className="duo">
-                  <p>DUO</p>
+                  <h1>DUO</h1>
                 </div>
               </Link>
             </Col>
             <Col md={4} xs={12}>
               <Link to="pricing" className="text-decoration-none">
                 <div className="trio">
-                  <p>TRIO</p>
+                  <h1>TRIO</h1>
                 </div>
               </Link>
             </Col>
