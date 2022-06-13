@@ -5,6 +5,9 @@
   .uno-box {
     border: 1px solid black;
     padding: 20px;
+    h1 {
+      margin-bottom: -30px;
+    }
     .prices {
       font-weight: 400;
       font-family: "Source Sans Pro", sans-serif;
@@ -28,6 +31,9 @@
     }
     .duo-price-box {
       padding: 20px;
+      h1 {
+        margin-bottom: -30px;
+      }
       .prices {
         font-weight: 400;
         font-family: "Source Sans Pro", sans-serif;
