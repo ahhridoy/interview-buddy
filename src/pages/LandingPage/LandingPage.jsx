@@ -1,8 +1,7 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-// import Header from "../components/Header";
-import "../styles/pages/_landing.scss";
+import "./_Landing.scss";
 
 const LandingPage = () => {
   return (

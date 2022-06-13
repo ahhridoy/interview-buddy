@@ -10,6 +10,7 @@ import {
   AiFillHeart
 } from "react-icons/ai";
 import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
+import "./_Footer.scss";
 
 const Footer = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import "../styles/pages/_pricing.scss";
+import "./_Pricing.scss"
 
 const Pricing = () => {
   return (
