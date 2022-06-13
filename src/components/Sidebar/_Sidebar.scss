@@ -1,13 +1,18 @@
 #sidebar {
-   flex: 1;
-   background-color: rgb(31, 22, 22);
-   min-height: 100vh;
+  flex: 1;
+  background-color: rgb(31, 22, 22);
+  min-height: 100vh;
   .center {
     ul {
       list-style: none;
       li {
         margin-bottom: 20px;
       }
+    }
+    .active {
+      background-color: red;
+      padding: 10px 25px;
+      border-radius: 10px;
     }
   }
 }

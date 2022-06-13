@@ -10,22 +10,12 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/">
-          <Route index element={<LandingPage />} />
-          <Route path="/pricing" element={<Pricing />} />
-          <Route path="dashboard">
-            <Route index element={<HomeDashboard />} />
-          </Route>
-          <Route path="book-interview">
-            <Route index element={<BookInterview />} />
-          </Route>
-          <Route path="buy-credits">
-            <Route index element={<BuyCredits />} />
-          </Route>
-          <Route path="my-profile">
-            <Route index element={<MyProfile />} />
-          </Route>
-        </Route>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="pricing" element={<Pricing />} />
+        <Route path="dashboard" element={<HomeDashboard />} />
+        <Route path="book-interview" element={<BookInterview />} />
+        <Route path="buy-credits" element={<BuyCredits />} />
+        <Route path="my-profile" element={<MyProfile />} />
       </Routes>
     </>
   );
