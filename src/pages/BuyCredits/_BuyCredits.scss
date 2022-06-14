@@ -1,6 +1,15 @@
 #buy-credits {
-   display: flex;
-   .buy-credits-container {
-      flex: 5;
-   }
+  display: flex;
+  .buy-credits-container {
+    flex: 5;
+    .update-profile-box {
+      background-color: white;
+      border: 1px solid black;
+      padding: 30px 0px;
+      .update-profile {
+        background-color: #fff9c0;
+        border: 1px solid black;
+      }
+    }
+  }
 }

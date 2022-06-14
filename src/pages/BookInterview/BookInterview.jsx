@@ -15,24 +15,24 @@ const BookInterview = () => {
             Book Interview
           </h4>
           <div className="system">
-            <p className="text-start ms-3 system-text">
+            <p className="text-start mx-3 system-text">
               <strong>Check Your System Date and Time</strong>
             </p>
-            <p className="text-start ms-3">
+            <p className="text-start mx-3">
               Looks like your system date and time is not set correctly. Please
               update your system date and time in order to start the interview
               on Time.
             </p>
           </div>
-          <div className="update">
-            <p className="text-center">
+          <div className="update mx-3 mt-5">
+            <p className="text-center fs-5">
               <strong>
                 Update your 'Profile' before attending your session for a
                 complete evaluation!
               </strong>
             </p>
           </div>
-          <div className="schedule-an-interview">
+          <div className="schedule-an-interview mx-3 mt-5">
             <p className="text-start p-3">
               <strong>Schedule an Interview</strong>
             </p>
@@ -51,14 +51,14 @@ const BookInterview = () => {
               <p className="ms-3 me-5">Select Date:</p>
             </div>
           </div>
-          <div className="available-slots">
+          <div className="available-slots mx-3 mt-3">
             <p className="text-start p-3">
               <strong>Available Slots</strong>
               <small> (All time slots listed are IST)</small>
             </p>
             <div className="d-flex">
               <div>
-                <p className="text-start">13 Jun' 2022</p>
+                <p className="text-start ms-3">13 Jun' 2022</p>
               </div>
               <Row>
                 <Col md={2} xs={3}></Col>
