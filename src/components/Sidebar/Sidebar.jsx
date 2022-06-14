@@ -6,13 +6,7 @@ import "./_Sidebar.scss";
 const Sidebar = () => {
   return (
     <main id="sidebar">
-      <div className="top text-center py-3">
-        <Link to="/" className="text-decoration-none">
-          <img src="/assets/logo.png" alt="" />
-        </Link>
-      </div>
-      <hr className="text-light" />
-      <div className="center">
+      <div className="center mt-4">
         <ul>
           <li>
             <NavLink

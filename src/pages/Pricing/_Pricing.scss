@@ -61,3 +61,18 @@
     padding: 0px;
   }
 }
+
+#faqs {
+  .faq-text {
+    p {
+      font-family: "JosefinSans Regular";
+      font-weight: 500;
+      font-size: 18px;
+      color: #333945;
+      line-height: 30px;
+      word-spacing: 5px;
+      margin-bottom: 1rem;
+      text-align: start;
+    }
+  }
+}

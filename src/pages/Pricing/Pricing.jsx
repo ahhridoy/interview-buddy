@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import Footer from "../../components/Footer/Footer";
-import "./_Pricing.scss"
+import "./_Pricing.scss";
 
 const Pricing = () => {
   return (
@@ -184,7 +184,7 @@ const Pricing = () => {
           <h1 className="mb-4">FAQs</h1>
           <Row className="gy-5">
             <Col md={6} xs={12}>
-              <div>
+              <div className="faq-text">
                 <h3>I’m unable to decide on a plan. Can you help me?</h3>
                 <p className="text-start">
                   You should choose a package that best suits your needs. But,
@@ -193,7 +193,7 @@ const Pricing = () => {
               </div>
             </Col>
             <Col md={6} xs={12}>
-              <div>
+              <div className="faq-text">
                 <h3>
                   How to test the interface before attending the actual
                   interview?
@@ -205,7 +205,7 @@ const Pricing = () => {
               </div>
             </Col>
             <Col md={6} xs={12}>
-              <div>
+              <div className="faq-text">
                 <h3>
                   Will I be penalized if I cancel an interview after it has been
                   scheduled?
@@ -217,7 +217,7 @@ const Pricing = () => {
               </div>
             </Col>
             <Col md={6} xs={12}>
-              <div>
+              <div className="faq-text">
                 <h3>Will I be interviewed by the same Expert every time?</h3>
                 <p className="text-start">
                   Our system is designed to assign you the next expert
@@ -228,7 +228,7 @@ const Pricing = () => {
               </div>
             </Col>
             <Col md={6} xs={12}>
-              <div>
+              <div className="faq-text">
                 <h3>What is the Standard Waiting Period?</h3>
                 <p className="text-start">
                   It is 48 hours. This means you have to wait 48 hours from the
@@ -240,7 +240,7 @@ const Pricing = () => {
               </div>
             </Col>
             <Col md={6} xs={12}>
-              <div>
+              <div className="faq-text">
                 <h3>
                   Which device should I use to attend my mock interview(s)?
                 </h3>
@@ -252,7 +252,7 @@ const Pricing = () => {
               </div>
             </Col>
             <Col md={6} xs={12}>
-              <div>
+              <div className="faq-text">
                 <h3>What are Resources?</h3>
                 <p className="text-start">
                   Resources are curated and handpicked articles dealing with
@@ -262,7 +262,7 @@ const Pricing = () => {
               </div>
             </Col>
             <Col md={6} xs={12}>
-              <div>
+              <div className="faq-text">
                 <h3>How can I skip the waiting period?</h3>
                 <p className="text-start">
                   Priority Scheduling gives V.I.P access to every subscribed
@@ -272,7 +272,7 @@ const Pricing = () => {
               </div>
             </Col>
             <Col md={6} xs={12}>
-              <div>
+              <div className="faq-text">
                 <h3>
                   What type all domains are covered under Specialized
                   Interviews?
@@ -283,7 +283,7 @@ const Pricing = () => {
               </div>
             </Col>
             <Col md={6} xs={12}>
-              <div>
+              <div className="faq-text">
                 <h3>
                   When can my Specialized Interview be scheduled after I send in
                   my query?
@@ -295,7 +295,7 @@ const Pricing = () => {
               </div>
             </Col>
             <Col md={6} xs={12}>
-              <div>
+              <div className="faq-text">
                 <h3>How much does a Specialized Interview cost?</h3>
                 <p className="text-start">
                   Since the Specialized Interviews are highly domain-specific
@@ -305,7 +305,7 @@ const Pricing = () => {
               </div>
             </Col>
             <Col md={6} xs={12}>
-              <div>
+              <div className="faq-text">
                 <h3>Who are these Specialized Interviews for?</h3>
                 <p className="text-start">
                   The Specialized Interviews are for people who have more than 2
