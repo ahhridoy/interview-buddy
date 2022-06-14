@@ -1,4 +1,5 @@
 import React from "react";
+import EducationDetails from "../../components/EducationDetails/EducationDetails";
 import Navbar from "../../components/Navbar/Navbar";
 import Sidebar from "../../components/Sidebar/Sidebar";
 import "./_MyProfile.scss";
@@ -49,6 +50,8 @@ const MyProfile = () => {
               </div>
             </div>
           </div>
+
+          <EducationDetails />
         </div>
       </div>
     </main>
